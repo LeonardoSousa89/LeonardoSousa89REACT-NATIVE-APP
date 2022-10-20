@@ -1,0 +1,56 @@
+https://reactnative.dev/docs/environment-setup
+https://www.npmjs.com/package/expo-cli
+https://www.react-native-material.com/docs/components/button
+https://reactnavigation.org/docs/getting-started/
+https://snack.expo.dev/
+
+hackintosh [IOS]
+https://www.google.com/search?q=hackintosh&oq=hackintos&aqs=chrome.0.0i433i512j69i57j0i512l8.4945j0j15&sourceid=chrome&ie=UTF-8
+
+
+npx create-expo-app [nome-do-app]
+
+cd [nome-do-app]
+ #escolha um dos comandos abaixo
+
+  -npm run android
+  -npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+  -npm run web
+  -npm start
+
+
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+
+
+
+OLD RELEASES===================*====================
+
+npm i -g expo-cli
+npm i -g expo-cli@[versão]
+EXS:npm i -g expo-cli@4.4.3
+
+expo init [nome-do-app]
+expo init [nome-do-app]  --template [blank ou tabs ou bare-minimum]
+EX: expo init [nome-do-app]  --template blank
+
+obs* expo-cli tem suporte do node v10.13.0 a >=v15.0.0 e < v16.0.0
+
+cd [nome-do-app]
+npm start
+
+
+obs* você substitui o http://localhost:19000 por
+		      exp://localhost:19000 ou a URL passada no app do celular manualmente.
+
+
+
+
+
+
+
+
+
+
+
+
