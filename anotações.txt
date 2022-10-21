@@ -18,9 +18,9 @@ cd [nome-do-app]
   -npm run web
   -npm start
 
-
-npx expo install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack
+#dependênciad do react-native  navigation com expo
+	npx expo install react-native-screens react-native-safe-area-context
+	npm install @react-navigation/native-stack
 
 
 
