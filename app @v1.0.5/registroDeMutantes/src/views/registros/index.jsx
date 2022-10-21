@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Text, ScrollView } from 'react-native';
 
 import { TextInput, Button, } from '@react-native-material/core';
 
@@ -17,6 +17,8 @@ export default (props) =>{
  
   const [ID, setID]=useState('')
   const [email, setEmail]=useState('')
+  const [nomeMutante, setNomeMutante]=useState('')
+  const [habilidade, setHabilidade]=useState('')
   
   useEffect(()=>{
 
@@ -32,19 +34,50 @@ export default (props) =>{
       
   }
 
+  function enviar(){
+      console.warn(nomeMutante + ',' + habilidade)
+      limpar()
+  }
+
+  function limpar(){
+      setNomeMutante('')
+      setHabilidade('')
+  }
 
   return (
-    <View style={styles.container}>
-        <View style={styles.inboundContainer}>
 
+    <View style={styles.container}>
+
+        <View style={styles.inboundContainer}>
 
             <View style={styles.form}>
                 <Text style={styles.userData}>{email}</Text>
                  
                 <View style={styles.inbounForm}>
-                  <Text>formulary</Text>
-                </View>
+                    
+                    <TextInput style={styles.full}
+                                placeholder='nome do mutante'
+                                color='#2196f3'
+                                value={nomeMutante}
+                                onChangeText={(e)=>{setNomeMutante(e)}}
+                        /> 
+                    <TextInput style={styles.full}
+                                placeholder='habilidade'
+                                color='#2196f3'
+                                value={habilidade}
+                                onChangeText={(e)=>{setHabilidade(e)}}
+                        /> 
+                    
+                    <Button style={styles.full} 
+                      title="enviar" 
+                      color='#2196f3'
+                      trailing={props => <Icon name="account" {...props} />} 
+                      onPress={enviar}
+                      />
+
+                    </View>
             </View>
+
 
             <View style={styles.floatBtn}>
               <Button style={styles.btn}
@@ -107,5 +140,7 @@ const styles = StyleSheet.create({
       borderBottomLeftRadius:6,
   },btn:{
     
+  },full:{
+    width:'80%'
   }
 });
