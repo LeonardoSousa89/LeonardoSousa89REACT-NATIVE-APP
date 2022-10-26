@@ -8,6 +8,17 @@ https://docs.expo.dev/guides/customizing-metro/
 https://stackoverflow.com/questions/72179070/react-native-bundling-failure-error-message-while-trying-to-resolve-module-i
 https://docs.expo.dev/versions/latest/sdk/webview/
 https://jwt.io/
+https://www.npmjs.com/package/expo-image-picker
+https://www.npmjs.com/package/react-native-svg
+https://docs.expo.dev/versions/latest/sdk/svg/
+https://stackoverflow.com/questions/66239691/what-does-npm-install-legacy-peer-deps-do-exactly-when-is-it-recommended-wh
+https://www.websiteplanet.com/pt-br/webtools/favicon-generator/#google_vignette
+https://www.npmjs.com/package/react-native-social-buttons
+https://fkhadra.github.io/react-toastify/introduction
+https://www.npmjs.com/package/react-toastify
+https://developers.facebook.com/tools/
+https://developers.facebook.com/apps/
+
 
 hackintosh [IOS]
 https://www.google.com/search?q=hackintosh&oq=hackintos&aqs=chrome.0.0i433i512j69i57j0i512l8.4945j0j15&sourceid=chrome&ie=UTF-8
@@ -33,6 +44,16 @@ cd [nome-do-app]
 
 #dependênciad do react-native webview
 npx expo install react-native-webview
+
+#dependênciad do react-native react-native-material
+npm install @react-native-material/core
+
+#dependênciad do react-native expo-image-picker
+npx expo install expo-image-picker
+
+#dependênciad do react-native svg
+npx expo install react-native-svg
+npm i react-native-svg-transformer
 
 OLD RELEASES===================*====================
 
