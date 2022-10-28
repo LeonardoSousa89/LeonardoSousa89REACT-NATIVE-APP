@@ -18,6 +18,10 @@ https://fkhadra.github.io/react-toastify/introduction
 https://www.npmjs.com/package/react-toastify
 https://developers.facebook.com/tools/
 https://developers.facebook.com/apps/
+https://mui.com/material-ui/guides/responsive-ui/
+https://www.devmedia.com.br/responsive-design-dicas-para-tornar-seu-site-acessivel-em-qualquer-resolucao/28316
+https://kinsta.com/pt/blog/design-responsivo-web/
+https://www.freecodecamp.org/portuguese/news/tutorial-de-media-queries-do-css-resolucoes-padrao-breakpoints-do-css-e-tamanhos-de-telefone/
 
 
 hackintosh [IOS]
