@@ -22,6 +22,11 @@ https://mui.com/material-ui/guides/responsive-ui/
 https://www.devmedia.com.br/responsive-design-dicas-para-tornar-seu-site-acessivel-em-qualquer-resolucao/28316
 https://kinsta.com/pt/blog/design-responsivo-web/
 https://www.freecodecamp.org/portuguese/news/tutorial-de-media-queries-do-css-resolucoes-padrao-breakpoints-do-css-e-tamanhos-de-telefone/
+https://www.npmjs.com/package/@react-native-community/google-signin
+https://www.google.com/search?q=app-loading+node+16&oq=app-loading+node+16&aqs=chrome..69i57.5394j0j15&sourceid=chrome&ie=UTF-8
+https://docs.expo.dev/versions/latest/sdk/splash-screen/
+https://www.npmjs.com/package/@expo-google-fonts/inter
+https://docs.expo.dev/guides/using-firebase/
 
 
 hackintosh [IOS]
@@ -38,26 +43,29 @@ cd [nome-do-app]
   -npm run web
   -npm start
 
-#dependênciad do react-native  navigation com expo
+#dependências do react-native  navigation com expo
 	npx expo install react-native-screens react-native-safe-area-context
 	npm install @react-navigation/native-stack
 
 
-#dependênciad do react-native firebase
+#dependências do react-native firebase
 	npx expo install firebase
 
-#dependênciad do react-native webview
+#dependências do react-native webview
 npx expo install react-native-webview
 
-#dependênciad do react-native react-native-material
+#dependências do react-native react-native-material
 npm install @react-native-material/core
 
-#dependênciad do react-native expo-image-picker
+#dependências do react-native expo-image-picker
 npx expo install expo-image-picker
 
-#dependênciad do react-native svg
+#dependências do react-native svg
 npx expo install react-native-svg
 npm i react-native-svg-transformer
+
+#dependências do react-native react-native-google-signin
+npm i @react-native-community/google-signin
 
 OLD RELEASES===================*====================
 
