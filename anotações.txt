@@ -27,6 +27,7 @@ https://www.google.com/search?q=app-loading+node+16&oq=app-loading+node+16&aqs=c
 https://docs.expo.dev/versions/latest/sdk/splash-screen/
 https://www.npmjs.com/package/@expo-google-fonts/inter
 https://docs.expo.dev/guides/using-firebase/
+https://docs.expo.dev/versions/latest/sdk/imagepicker/
 
 
 hackintosh [IOS]
