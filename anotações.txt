@@ -28,6 +28,8 @@ https://docs.expo.dev/versions/latest/sdk/splash-screen/
 https://www.npmjs.com/package/@expo-google-fonts/inter
 https://docs.expo.dev/guides/using-firebase/
 https://docs.expo.dev/versions/latest/sdk/imagepicker/
+https://docs.expo.dev/troubleshooting/clear-cache-windows/
+https://www.npmjs.com/package/@react-navigation/native
 
 
 hackintosh [IOS]
@@ -42,7 +44,10 @@ cd [nome-do-app]
   -npm run android
   -npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
   -npm run web
-  -npm start
+  -npm start or expo start or expo start --clear (to clean app cache)
+
+#dependências do react-native  navigation
+npm i @react-navigation/native
 
 #dependências do react-native  navigation com expo
 	npx expo install react-native-screens react-native-safe-area-context
