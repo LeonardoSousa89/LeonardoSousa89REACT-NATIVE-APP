@@ -30,6 +30,8 @@ https://docs.expo.dev/guides/using-firebase/
 https://docs.expo.dev/versions/latest/sdk/imagepicker/
 https://docs.expo.dev/troubleshooting/clear-cache-windows/
 https://www.npmjs.com/package/@react-navigation/native
+https://www.genymotion.com/
+https://www.npmjs.com/package/@react-native-community/netinfo
 
 
 hackintosh [IOS]
@@ -72,6 +74,10 @@ npm i react-native-svg-transformer
 
 #dependências do react-native react-native-google-signin
 npm i @react-native-community/google-signin
+
+
+#dependências do react-native netinfo
+npm i @react-native-community/netinfo
 
 OLD RELEASES===================*====================
 
